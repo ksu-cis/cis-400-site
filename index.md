@@ -7,7 +7,7 @@ layout: home
 Welcome to the CIS 400 - Object-Oriented Design, Implementation, and Testing course website.  This website contains materials and resources for students enrolled in the course.
 
 ## Textbook
-The lecture notes for the class have been collected into an [online textbook]({% link course-text.md %}) for your convenience.
+The lecture notes for the class have been collected into an [online textbook]({{site.baseurl}}{% link course-text.md %}) for your convenience.
 
 ## Working with Git and GitHub
-In this class, we will be working with Git and GitHub extensively.  A detailed discussion including workflows can be found [here]({% link git-and-github.md %})
+In this class, we will be working with Git and GitHub extensively.  A detailed discussion including workflows can be found [here]({{site.baseurl}}{% link git-and-github.md %})

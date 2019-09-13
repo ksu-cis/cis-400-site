@@ -7,9 +7,9 @@ Forking a project creates a new copy of a project on GitHub under your account. 
 ## Step 1 - Create the Fork
 You fork a project in Github by clicking the "fork" button on the original project repository page:
 
-![forking on GitHub](/img/fork.png)
+![forking on GitHub]({{site.baseurl}}/img/fork.png)
 
 This will clone the project into a new Github repository under your account.  The webpage will redirect to your project's page once done.
 
 ## Notes
-You can [clone]({% link _git-workflows/clone.md %}) the forked project to your local machine(s) where you can work on it.  You can create as many of these clones as you need.
+You can [clone]({{site.baseurl}}{% link _git-workflows/clone.md %}) the forked project to your local machine(s) where you can work on it.  You can create as many of these clones as you need.

@@ -7,7 +7,7 @@ Cloning a project creates a local copy of the repository where you can make chan
 # Step 1 - Copy the Clone URI
 First, you need to have the URI of the repository you want to clone. For repositories on GitHub, this link can be reached from the "Clone or Download" dropdown on GitHub:
 
-![Clone or Download Dropdown](/img/clone.png)
+![Clone or Download Dropdown]({{site.baseurl}}/img/clone.png)
 
 ## Step 2 - Perform the Clone Operation
 Then, on your local machine, clone the remote repository with the command:
