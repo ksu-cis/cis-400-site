@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="section">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+
+  {% if section.previous.url %}
+    <a class="prev" href="{{section.previous.url}}">&laquo; {{section.previous.title}}</a>
+  {% endif %}
+  {% if section.next.url %}
+    <a class="next" href="{{section.next.url}}">{{section.previous.title}} &raquo;</a>
+  {% endif %}
+</article>

@@ -15,7 +15,7 @@ $ git remote add upstream https://github.com/ksu-cis/dino-diner.git
 Once the _upstream_ repository has been established, you can pull its changes using the command:
 
 ```
-$ git remote pull upstream master
+$ git pull upstream master
 ```
 
 This merges the upstream master branch into the local repository.  As with any merge, this may result in _merge conflicts_, which will need to be [resolved]({{site.baseurl}}{% link git-workflows/merge-conflicts.md %}).
