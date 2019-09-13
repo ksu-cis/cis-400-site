@@ -23,8 +23,8 @@ email: nhbean@ksu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The course page for Kansas State University's CIS 400
   - Object oriented Design, Implementation, and Testing course.
-baseurl: "https://ksu-cis.github.io/cis-400-site/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cis-400-site" # the subpath of your site, e.g. /blog
+url: "https://ksu-cis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zombiepaladin
 
 # Build settings
