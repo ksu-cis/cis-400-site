@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CIS 400 Course Page
 email: nhbean@ksu.edu
+title: CIS 400 Course Page
 description: >- # this means to ignore newlines until "baseurl:"
   The course page for Kansas State University's CIS 400
   - Object oriented Design, Implementation, and Testing course.
-baseurl: "/cis-400-site" # the subpath of your site, e.g. /blog
-url: "https://ksu-cis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cis-400-site" #  the subpath of your site, e.g. /blog
+url: "https://ksu-cis.github.io" #  the base hostname & protocol for your site, e.g. http://example.com
 github_username:  zombiepaladin
 
 # Build settings
