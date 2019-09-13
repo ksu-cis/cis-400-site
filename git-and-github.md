@@ -13,11 +13,11 @@ In this class, we will be working with multiple git repositories, much the way y
 
 ### Workflows
 We often talk of _workflows_ in how we work, a pattern of steps to accomplish a goal.  The following workflows are sequences of git commands you will probably use in this course, and probably in later courses and industry as well.
-* [Forking the upstream repository]({{ site.baseurl }}{% link git-workflows/fork.md %}) to create your origin repository.
-* [Cloning your origin repository]({{site.baseurl}}{% link git-workflows/clone.md %}) to create a local repository.
-* [Pulling changes from the upstream repository]({{site.baseurl}}{% link git-workflows/pull-upstream.md %}) into a local repository.
-* [Committing changes]({{site.baseurl}}{% link git-workflows/committing-changes.md %}) on a local repository.
-* [Pushing changes on a local repository]({{site.baseurl}}{% link git-workflows/pushing-changes.md %}) to your origin repository.
-* [Pulling changes from your origin repository]({{site.baseurl}}{% link git-workflows/pull-origin.md %}) to a local repository.
-* [Resolving merge conflicts]({{site.baseurl}}{% link git-workflows/merge-conflicts.md %}) after a merge or pull.
-* [Creating a release]({{site.baseurl}}{% link git-workflows/create-release.md %}) on your origin repository to turn as your assignment.
+* [Forking the upstream repository]({{ site.baseurl }}{% link _git-workflows/fork.md %}) to create your origin repository.
+* [Cloning your origin repository]({% link _git-workflows/clone.md %}) to create a local repository.
+* [Pulling changes from the upstream repository]({% link _git-workflows/pull-upstream.md %}) into a local repository.
+* [Committing changes]({% link _git-workflows/committing-changes.md %}) on a local repository.
+* [Pushing changes on a local repository]({% link _git-workflows/pushing-changes.md %}) to your origin repository.
+* [Pulling changes from your origin repository]({% link _git-workflows/pull-origin.md %}) to a local repository.
+* [Resolving merge conflicts]({% link _git-workflows/merge-conflicts.md %}) after a merge or pull.
+* [Creating a release]({% link _git-workflows/create-release.md %}) on your origin repository to turn as your assignment.
