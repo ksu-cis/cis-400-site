@@ -11,3 +11,6 @@ The lecture notes for the class have been collected into an [online textbook]({{
 
 ## Working with Git and GitHub
 In this class, we will be working with Git and GitHub extensively.  A detailed discussion including workflows can be found [here]({{site.baseurl}}{% link git-and-github.md %})
+
+## Style Guide
+You can access the course style guide [here]({{site.baseurl}}{% link style-guide.md %})
