@@ -12,7 +12,7 @@ DinoDiner currently offers four sides:
 
 * MeteorMacAndCheese (Macaroni and Cheese with Sausages)
 
-* Mezzorella Sticks (Fried Breaded Motzorella Sticks)
+* Mezzorella Sticks (Fried Breaded Mozzarella Sticks)
 
 * Triceritots (Tater Tots)
 
