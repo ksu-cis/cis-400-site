@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: milestone
 ---
 
 # Menu Milestone 1
@@ -40,7 +40,7 @@ Implement a class to represent the Brontowurst entree.  Its price is **$5.36**, 
 
 ### Dino Nuggets (20 points possible)
 
-Implement a class to represent the Dino Nuggest entree.  Its price is **$4.25**, it contains **59 calories** per nugget, and its ingredients are: **6** **chicken nuggets**.  It should implement methods for adding a nugget at an additional **$0.25**.
+Implement a class to represent the Dino Nuggets entree.  Its price is **$4.25**, it contains **59 calories** per nugget, and its ingredients are: **6** **chicken nuggets**.  It should implement methods for adding a nugget at an additional **$0.25**.
 
 ### Pterodactyl Wings (15 points possible)
 
