@@ -1,14 +1,24 @@
 ---
 layout: default
 ---
+{% if page.previous %}
+  <a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+{% endif %}
+| <a class="toc" href="{{ site.baseurl }}{% link course-text.md %}">Table of Contents</a> |
+{% if page.next %}
+  <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+{% endif %}
+
 <article class="section">
+
   <h1>{{ page.title }}</h1>
   {{ content }}
-
-  {% if section.previous.url %}
-    <a class="prev" href="{{section.previous.url}}">&laquo; {{section.previous.title}}</a>
-  {% endif %}
-  {% if section.next.url %}
-    <a class="next" href="{{section.next.url}}">{{section.previous.title}} &raquo;</a>
-  {% endif %}
 </article>
+
+{% if page.previous %}
+  <a class="previous" href="{{ site.baseurl }}{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+{% endif %}
+| <a class="toc" href="{{ site.baseurl }}{% link course-text.md %}">Table of Contents</a> |
+{% if page.next %}
+  <a class="next" href="{{ site.baseurl }}{{page.next.url}}">{{page.next.title}} &raquo;</a>
+{% endif %}
