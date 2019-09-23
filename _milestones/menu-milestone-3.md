@@ -38,9 +38,9 @@ Implement a class to represent a Sodasaurus that inherits from the Drink class. 
 Implement a class to represent Tyrannotea that inherits from Drink.  It should have properties for **Sweet** (a bool, default false) and **Lemon** (a bool, default false).  Its price is **$0.99** (small), **$1.49** (medium), and **$1.99** (large).  Its calories are **8** (small), **16** (medium), and **32** (large).  Adding sweetener doubles these values.  It should also implement a method **AddLemon()** which sets the lemon to true.  Its ingredients should be "Water", "Tea", (if lemon was added) "Lemon", and (if sweet) "Cane Sugar".
 
 ### JurrasicJava Class (10 points)
-Implement a class to represent the JurrasicJava, that inherits from the Drink class.  Unlike other drinks, it should default to **Ice** as false.  It should also implement properties for **RoomForCream** (bool, default false), **Decaf** (bool, default false).  It should also implement a method **LeaveRoomForCream()** and **AddIce()**. Its ingredients should be "Water" and "Coffee".
+Implement a class to represent the JurrasicJava, that inherits from the Drink class.  Unlike other drinks, it should default to **Ice** as false.  It should also implement properties for **RoomForCream** (bool, default false), **Decaf** (bool, default false).  It should also implement a method **LeaveRoomForCream()** and **AddIce()**. Its price is **$.59** (small), **$.99** (medium), and **$1.49** (large) and calories are **2** (small), **4** (medium), and **8** (large).  Its ingredients should be "Water" and "Coffee".
 
-### Water Class (10 points)
+### Water Class (5 points)
 Implement a class to represent a glass of water that inherits from the Drink base class.  It should have property **Lemon** (bool, default false), and a **AddLemon()** method.  The Water class should have a price of **$0.10** and **0** calories for all sizes.  Its ingredients should be "Water" and (if lemon was added) "Lemon".
 
 ### SodaSaurus Test Class (10 points)
@@ -60,6 +60,13 @@ Implement a test class that tests:
 6. That setting the sweet property to false (after it has been set to true) results in the right calories for each size.
 
 ### JurrasicJava test Class (10 points)
+Implement a test class that tests:
+1. The correct default price, calories, ice, size, and SpaceForCream properties.
+2. The correct price and calories after changing to small, medium, and large sizes.
+3. That invoking HoldIce() results in the Ice property being false
+4. That invoking LeaveSpaceForCream() results in the SpaceForCream property being true.
+
+### Water Test Class (5 points)
 Implement a test class that tests:
 1. The correct default price, calories, ice, size, and lemon properties.
 2. The correct price and calories after changing to small, medium, and large sizes.
