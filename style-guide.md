@@ -7,13 +7,31 @@ title: "Style Guide"
 
 Authors: Dr. Rodney Howell and Zachery Brunner
 
-## General Definitions:
+## Definitions
 
-### Camel Case:
+**Camel Case:**  Multiple words are joined without spaces, using capital letters at the beginning of each word excluding the first letter of the first word.  For example: `averageAge`, `contextBoundObject`, `rgbCode`.
 
-Multiple words are joined without spaces, using capital letters at the beginning of each word excluding the first letter of the first word.
+**Pascal Case:** Multiple words are joined without spaces, and all words begin with a capital letter.  For example: `Vector3`, `PerformanceMeasure`, `RGBCode`.
 
-For Example: averageAge, contextBoundObject, rgbCode
+## Curly Braces
+Code blocks in C# are signified by curly braces: `{ }`.  In general, all braces should occur on lines by themselves, i.e.:
+
+```csharp
+if(flag)
+{
+  Console.WriteLine("Flag is set");
+  DoSomething();
+} else {
+  Console.WriteLine("Flag is not set");
+  DoSomethingElse();
+}
+```
+
+An exception to this rule is when only one statement is contained in the braces, i.e.:
+
+```csharp
+if(flag) { DoSomething(); }
+else { DoSomethingElse(); }
 
 ## File Consistency:
 

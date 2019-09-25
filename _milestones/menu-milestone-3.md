@@ -49,6 +49,7 @@ Implement a test class that tests:
 2. The correct default price, calories, ice, and size
 3. The correct price and calories after changing to small, medium, and large sizes.
 4. That invoking HoldIce() results in the Ice property being false.
+5. The correct ingredients are given
 
 ### Tyrannotea Test Class (10 points)
 Implement a test class that tests:
@@ -58,13 +59,15 @@ Implement a test class that tests:
 4. That invoking AddLemon() sets results in the Lemon property being true.
 5. That setting the sweet property to true results in the right calories for each size
 6. That setting the sweet property to false (after it has been set to true) results in the right calories for each size.
+7. The correct ingredients are given.
 
 ### JurrasicJava test Class (10 points)
 Implement a test class that tests:
 1. The correct default price, calories, ice, size, and SpaceForCream properties.
 2. The correct price and calories after changing to small, medium, and large sizes.
-3. That invoking HoldIce() results in the Ice property being false
+3. That invoking AddIce() results in the Ice property being true
 4. That invoking LeaveSpaceForCream() results in the SpaceForCream property being true.
+5. The correct ingredients are given.
 
 ### Water Test Class (5 points)
 Implement a test class that tests:
@@ -72,3 +75,4 @@ Implement a test class that tests:
 2. The correct price and calories after changing to small, medium, and large sizes.
 3. That invoking HoldIce() results in the Ice property being false
 4. That invoking AddLemon() sets results in the Lemon property being true.
+5. The correct ingredients are given.
