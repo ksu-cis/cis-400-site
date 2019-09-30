@@ -17,11 +17,11 @@ Your classes should continue to pass _ALL_ existing tests after any refactoring.
 
 ## MenuItem Interface (20 points)
 
-You will need to create an interface in the DinoDiner.Menu namespace, MenuItem, that requires a property with a getter for `Price` (double), `Calories` (uint), and `Ingredients` (a List<string>).
+You will need to create an interface in the DinoDiner.Menu namespace, IMenuItem, that requires a property with a getter for `Price` (double), `Calories` (uint), and `Ingredients` (a List<string>).
 
 ## MenuItem Implementation (20 points)
 
-Entrees, Sides, Drinks, and Combos will need to be refactored to implement the MenuItem interface.
+Entrees, Sides, Drinks, and Combos will need to be refactored to implement the IMenuItem interface.
 
 ## ToString() Implementation (20 points)
 
