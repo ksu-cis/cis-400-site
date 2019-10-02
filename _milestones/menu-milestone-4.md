@@ -6,7 +6,7 @@ layout: milestone
 
 ## Add Menu Class and MenuItem Interface
 
-Now that we have the majority of the menu items built for DinoDiner, it's time to write a few classes that pull them together.  These will be the Menu class (which represents all items currently available), the Order class (which represents a single order composed of multiple menu items), and the MenuItem interface - an interface that all menu items should support.
+Now that we have the majority of the menu items built for DinoDiner, it's time to write a few classes that pull them together.  These will be the Menu class (which represents all items currently available) and the MenuItem interface - an interface that all menu items should support.
 
 ## General Requirements
 You will need to follow the provided style guide.
@@ -25,7 +25,7 @@ Entrees, Sides, Drinks, and Combos will need to be refactored to implement the I
 
 ## ToString() Implementation (20 points)
 
-You will also need to refactor all menu items by overriding the `ToString()` method to return the name of the item, i.e. DinoNuggets' `ToString()` method should return the string `"DinoNuggets"`.
+You will also need to refactor all menu items by overriding the `ToString()` method to return the name of the item, i.e. DinoNuggets' `ToString()` method should return the string `"Dino-Nuggets"`.  In most cases, the name of the menu item is the class name with spaces added; however, some are a bit different, i.e. "Prehistoric PB&J" and "T-Rex King Burger".  The names you should use can be found in the upstream MenuItemNameTest.cs file.
 
 ## Menu Class (40 points)
 
