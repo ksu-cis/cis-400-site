@@ -1,0 +1,46 @@
+---
+layout: milestone
+---
+
+# Menu Milestone 5
+
+## Preparing Menu Items for Data Binding
+
+For this milestone you will be modifying your Menu Project to support data binding for future implementation with the Point of Sale system.
+
+## Menu Refactoring: IOrderItem (20 points possible)
+
+You will need to refactor your menu items to support the `IOrderItem` interface, which should provide a `Price` (double) property, a `Description` (string) property, and a `Special` (string[]]) property.  The `Description` field should match the `ToString()` implementation from prior milestones.  The `Special` field should contain any special instructions for the food preparation, i.e. "Hold Ketchup", as specified by the specific Menu Item.
+
+![IOrderItem Interface](assets/mm-5.1.png)
+
+## Menu Testing: Testing IOrderItem Functionality (20 points possible)
+
+You will need to add additional tests to evaluate the additional properties added to classes implementing the IOrderItem interface - Description and Special (Note that Price should already be tested).
+
+For testing the description, you may duplicate and repurpose the existing tests for the `ToString()` method (note that you will need to _keep testing_ the `ToString()` implementation as well).
+
+For testing the special property, keep in mind the specific properties that can change for your various items - i.e. a Jurassic Java would include adding ice and leaving room for cream.  The T-Rex King Burger would include every option that can be held.  Your tests need to cover _all_ of these cases.
+
+## Menu Refactoring: INotifyPropertyChanged (20 points possible)
+
+You will need to refactor all classes implementing the `IOrderItem` interface to also implement the [INotifyPropertyChanged](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged?view=netframework-4.8) interface from the [System.ComponentModel](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel?view=netframework-4.8) Namespace.  This involves adding a `PropertyChanged` event handler to each of your classes and triggering the event when properties of interest change (i.e. those that will be used in a bound control), specifying the property that has changed.
+
+For this milestone, the minimum properties that should trigger a `PropertyChanged` event handler are any property that would change the description (such as size) price (i.e. size change), or special (i.e. holding lettuce).
+
+## Menu Testing: Testing PropertyChanged event handling (20 points possible)
+
+You will need to create a series of tests to ensure that the an event listener attached to the `PropertyChanged` event handler for each of your order items is triggered when any property is changed that can result in a change to the `Price`, `Description`, or `Special` properties.
+
+Keep in mind all the properties which also affect these properties, i.e. for drinks, sides, and combos changing size changes both `Price` and `Description`.  For each of our order items, any customization (i.e. holding lettuce, adding lemon) will also change the `Special` property.
+
+## Menu: Order Class (10 points possible)
+You will need to create an Order class to represent a new customer order.  It should have a Items property of type `ObservableCollection<IOrderItem>` to represent the items added to the order.  It should also expose a `SubtotalCost` (double), which calculates the total price from the prices of all order items; a `SalesTaxRate` (double) with a getter and protected setter; a `SalesTaxCost` (double) which is the product of the `SalesTaxRate` and the `SubtotalCost`; and a `TotalCost` (double) property, which calculates the total cost as the sum of the `SubtotalCost` and the `SalesTaxCost`.
+
+![Order Class](assets/mm-5.2.png)
+
+Note: the `SubtotalCost` should __NEVER__ be allowed to be negative, even if it is calculated as a negative number (i.e. when coupons are applied).
+
+## Testing: Order Class (10 points possible)
+
+Write unit tests to verify the functionality of the Order class by adding mocked order items with known Price properties to an order instance, and calculating expected costs.  Also check that `SubtotalCost` cannot be made negative when an Order Item with a large negative cost is added.
