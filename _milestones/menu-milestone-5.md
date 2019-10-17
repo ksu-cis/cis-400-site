@@ -14,13 +14,35 @@ You will need to refactor your menu items to support the `IOrderItem` interface,
 
 ![IOrderItem Interface](assets/mm-5.1.png)
 
+### Special Specifications
+For the special properties, use Title Case (capitalized and spaced) strings for all specifications, i.e. "Hold Lettuce", corresponding to the method names as specified in earlier milestones, except for the cases below.
+
+For Dino-Nuggets, use a single string "# Extra Nuggets" where # is the number of nuggets above 6 for the special case of extra nuggets.
+
+For Tyrannotea and JurrasicJava, the "Sweet" and "Decaf" properties are integrated into the description, and should _not_ be included in the special list.  
+
+Specials for Drinks should use "Hold Ice", except JurrasicJava, which would use "Add Ice".  Additionally, Water and Tyrannotea have "Add Lemon" as an option.
+
+Sides do not currently have special instructions, and should return an empty string array for their Special property.
+
+For Drinks and Sides, the "Size" property is included in the description, and should _not_ be included in the speical list.
+
+For CretaceousCombo, include in the Specials array, in this order:
+1. The special instructions for the Entree
+2. The description of the side
+3. The special instructions for the Side
+4. The description of the drink
+5. The special instructions for the drink
+
 ## Menu Testing: Testing IOrderItem Functionality (20 points possible)
 
 You will need to add additional tests to evaluate the additional properties added to classes implementing the IOrderItem interface - Description and Special (Note that Price should already be tested).
 
 For testing the description, you may duplicate and repurpose the existing tests for the `ToString()` method (note that you will need to _keep testing_ the `ToString()` implementation as well).
 
-For testing the special property, keep in mind the specific properties that can change for your various items - i.e. a Jurassic Java would include adding ice and leaving room for cream.  The T-Rex King Burger would include every option that can be held.  Your tests need to cover _all_ of these cases.
+For testing the special property, keep in mind the specific properties that can change for your various items - i.e. a Jurassic Java would include adding ice and leaving room for cream.  The T-Rex King Burger would include every option that can be held.  Your tests need to cover:
+1. _Each_ held option _individually_, (i.e. if only lettuce is held, the Special should be ["Hold Lettuce"])
+2. A number of groupings of held options (i.e. when holding lettuce, mayo, and cheese, the Special should be ["Hold Lettuce", "Hold Mayo", "Hold Cheese"]
 
 ## Menu Refactoring: INotifyPropertyChanged (20 points possible)
 
