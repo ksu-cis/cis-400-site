@@ -23,10 +23,7 @@ Each OrderItem displayed in the list should display both the Description and any
 Each OrderItem in the list should also feature a "remove" button (which can be an X or other symbol) that when clicked will remove the item from the Order.
 
 ## Entree Selection Page (10 points)
-Refactor your _EntreeSelection.xaml_ so that clicking an entree button
-1. Adds the entree to the Order
-2. Selects the just-added entree in the OrderControl
-3. Returns to the MenuCategorySelection screen
+Refactor your _EntreeSelection.xaml_ so that clicking an entree button adds the entree to the Order and then returns to the MenuCategorySelection screen.
 
 ## Side Selection Page (20 points)
 Refactor the _SideSelection.xaml_ so that clicking a side button adds the side to the Order and then clicking a size button sets the size of the side and returns to the MenuCategorySelection screen.
