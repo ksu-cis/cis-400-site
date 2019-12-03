@@ -2,7 +2,7 @@
 layout: milestone
 ---
 
-# Website Milestone 2 - LINQ
+# Website Milestone 3 - LINQ
 
 For this milestone you will be refactoring the Menu page for the DinoDiner franchise website to leverage LINQ to filter, search, and sort the menu items.
 
@@ -29,4 +29,4 @@ A mockup of how this can be achieved is:
 Refactor the side display list in _menu.cshtml_ to display the calories and price for each side by size in a table.
 
 # Drink Display (10 Points)
-Refactor the drink display list in _menu.cshtml_ to display the calories and price for each drink by size in a table. 
+Refactor the drink display list in _menu.cshtml_ to display the calories and price for each drink by size in a table.
