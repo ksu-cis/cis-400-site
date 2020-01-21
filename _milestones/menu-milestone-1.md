@@ -2,62 +2,49 @@
 layout: milestone
 ---
 
-# Menu Milestone 1
+# Class Library Milestone 1
 
 ## Add Entree Classes (100 points possible)
 
-DinoDiner currently offers seven entrees:
+Cowboy Cafe currently offers seven entrees:
 
-* Brontowurst (Brautwurst with peppers and onions in a bun)
+* Cowpoke Chili (a big bowl spicy chili)
 
-* DinoNuggets (Six crispy fried breaded chicken nuggets)
+* Rustler's Ribs (BBQ spare ribs)
 
-* Prehistoric PB&J (A peanut butter & jelly sandwich)
+* Pecos Pulled Pork (BBQ pulled pork sandwich)
 
-* Pterodactyl Wings (Chicken wings glazed with a signature hot sauce)
+* Trail Burger (a 1/4lb burger)
 
-* Steakosaurus Burger (A 1/2 pound steakburger)
+* Dakota Double (a 1/2lb double burger)
 
-* T-Rex King Burger (A triple 1/2 steakburger with all the fixings)
+* Texas Triple (a 3/4lb triple burger)
 
-* Veloci-Wrap (A chicken ceasar wrap)
+* Angry Chicken (spicy BBQ chicken sandwich)
 
-For each of these entrees, you will need to create a corresponding C# class (an implementation for Prehistoric PB & J is provided).
+For each of these entrees, you will need to create a corresponding C# class (an implementation for Cowpoke Chili is provided).
 
 ### General Requirements
 
-You will need to follow the provided style guide.
+You will need to follow the style laid out in the [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions).
 
-Each entree should be declared in the **DinoDiner.Menu.Entree** namepace.
+Each entree should be declared in the **CowboyCafe.Data** namepace.
 
-Each entree should implement a property for: Price (a double), Calories (a uint), and Ingredients (a List<string>).  The list of ingredients depends on the class, and can be modified as described under each class heading.
+Each entree should implement a property for: Price (a double), Calories (a uint), and SpecialInstructions (a List<string>).  The list of instructions depends on the class, as described under each class heading.
 
-Your code should pass all the tests  provided in the MenuTest project, and be documented using Visual Studio XML (as specified in the style guide).
+Your code should pass all the tests  provided in the DataObjectTest project (note, you will need to uncomment the tests as you write the corresponding classes), and be documented using Visual Studio XML (as specified in the style guide).
 
-### Brontowurst (15 points possible)
+### Rustler's Ribs
+Implement a class to represent the Rustler's Ribs entree.  Its price is **$7.50** and its calories are **894**.  It has no special instructions.
 
-Implement a class to represent the Brontowurst entree.  Its price is **$5.36**, it contains **498 calories**, and its ingredients are: **brautwurst, whole-wheat bun, peppers**, and **onions.**  It should implement methods for holding the **bun, peppers**, and **onions.**
+### Pecos Pulled Pork
+Implement a class to represent the Pecos Pulled Pork entree.  Its price is **$5.88** and its calories are **528**.  It should have boolean properties for **Bread** and **Pickle**, which default to true.  When **Bread** is false, the special instructions include the string **"hold bread"** and when **Pickle** is false, the special instructions should include the string **"hold pickle"**.
 
-### Dino Nuggets (20 points possible)
+### Trailburger
+Implement a class representing a Trailburger entree.  It costs **$4.50** and has **288** calories.  It should have boolean properties for **Ketchup**, **Mustard**, **Pickle**, and **Cheese**.  These are true by default.  Setting these to false will create a corresponding instruction in the **SpecialInstructions** list: "hold ketchup", "hold mustard", "hold pickle", and "hold cheese".
 
-Implement a class to represent the Dino Nuggets entree.  Its price is **$4.25**, it contains **59 calories** per nugget, and its ingredients are: **6** **chicken nuggets**.  It should implement methods for adding a nugget at an additional **$0.25**.
+### Dakota Double Burger
+Implement a class representing a Dakota Double Burger entree.  It costs **$5.20** and has **464** calories. It has all the properties of the Trailburger, plus **Tomato**, **Lettuce**, and **Mayo**.  These too are true by default.  Setting them to false adds the corresponding "hold" instruction to the **SpecialInstructions** property.
 
-### Pterodactyl Wings (15 points possible)
-
-Implement a class to represent the Pterodactyl Wings entree.  Its price is **$7.21**, it contains **318 calories**, and its ingredients are:  **Chicken** and **Wing Sauce**.
-
-### Steakosaurus Burger (15 points possible)
-
-Implement a class to represent the Steakosaurus Burger entree.  Its price is **$5.15**, it contains **621 calories**, and its ingredients are: **whole wheat bun, steakburger pattie, pickle, ketchup**, and **mustard.**  It should implement methods for holding the **bun, pickle, ketchup,** and **mustard**.
-
-### T-Rex King Burger (20 points possible)
-
-Implement a class to represent the T-Rex King Burger entree.  Its price is **$8.45**, it contains **728 calories**, and its ingredients are: a **whole wheat bun, three steakburger patties, lettuce, tomato, onion, pickle, ketchup, mustard**, and **mayo**.  It should implement methods for holding the **bun, lettuce, tomato, onion, pickle, ketchup, mustard**, and **mayo.**
-
-### Veloci-Wrap (15 points possible)
-
-Implement a class to represent the Veloci-Wrap entree.  Its price is **$6.86**, it contains **356 calories**, and its ingredients are: a **flour tortilla, chicken breast, romaine lettuce, Ceasar dressing**, and **parmesan cheese**.  It should implement methods to hold the **dressing, lettuce**, and **cheese.**
-
-### Prehistoric PB & J
-
-The impelmentation of the prehistoric PB & J is provided as an example.  Its price is **$6.52**, it contains **483 calories**, and its ingredients are: **bread, peanut butter**, and **jelly**.  It implements methods to hold the **peanut butter** and **jelly**.
+### Texas Triple Burger
+Implement a class representing a Texas Triple Burger.  It costs **$6.45** and has **698** calories. It has all the properties of the Dakota Double burger, plus **Bacon**,  and **Egg**.  These too are true by default.  Setting them to false adds the corresponding "hold" instruction to the **SpecialInstructions** property.
