@@ -37,6 +37,9 @@ Your code should pass all the tests  provided in the DataObjectTest project (not
 ### Rustler's Ribs
 Implement a class to represent the Rustler's Ribs entree.  Its price is **$7.50** and its calories are **894**.  It has no special instructions.
 
+### Angry Chicken
+Implement a class to represent teh Angry Chicken entree.  Its price is **$5.99** and its calories are **190**.  It should have boolean properties for **Bread** and **Pickle** which default to true.  When **Bread** is false, the special instructions should include the string **"hold bread"** and when **Pickle** is false, the special instructions should include the string **"hold pickle"**.
+
 ### Pecos Pulled Pork
 Implement a class to represent the Pecos Pulled Pork entree.  Its price is **$5.88** and its calories are **528**.  It should have boolean properties for **Bread** and **Pickle**, which default to true.  When **Bread** is false, the special instructions include the string **"hold bread"** and when **Pickle** is false, the special instructions should include the string **"hold pickle"**.
 
