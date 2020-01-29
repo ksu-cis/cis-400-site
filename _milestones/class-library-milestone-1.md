@@ -44,7 +44,7 @@ Implement a class to represent teh Angry Chicken entree.  Its price is **$5.99**
 Implement a class to represent the Pecos Pulled Pork entree.  Its price is **$5.88** and its calories are **528**.  It should have boolean properties for **Bread** and **Pickle**, which default to true.  When **Bread** is false, the special instructions include the string **"hold bread"** and when **Pickle** is false, the special instructions should include the string **"hold pickle"**.
 
 ### Trailburger
-Implement a class representing a Trailburger entree.  It costs **$4.50** and has **288** calories.  It should have boolean properties for **Bun**, **Ketchup**, **Mustard**, **Pickle**, and **Cheese**.  These are true by default.  Setting these to false will create a corresponding instruction in the **SpecialInstructions** list: "hold ketchup", "hold mustard", "hold pickle", and "hold cheese".
+Implement a class representing a Trailburger entree.  It costs **$4.50** and has **288** calories.  It should have boolean properties for **Bun**, **Ketchup**, **Mustard**, **Pickle**, and **Cheese**.  These are true by default.  Setting these to false will create a corresponding instruction in the **SpecialInstructions** list: "hold bun", "hold ketchup", "hold mustard", "hold pickle", and "hold cheese".
 
 ### Dakota Double Burger
 Implement a class representing a Dakota Double Burger entree.  It costs **$5.20** and has **464** calories. It has all the properties of the Trailburger, plus **Tomato**, **Lettuce**, and **Mayo**.  These too are true by default.  Setting them to false adds the corresponding "hold" instruction to the **SpecialInstructions** property.
