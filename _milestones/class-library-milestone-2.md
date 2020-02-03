@@ -44,4 +44,4 @@ Implement a class representing the Baked Beans side.  Its price is **$1.59** (sm
 
 ### Entree Base Class
 
-Create an abstract base class to represent the entrees.  It should define properties for **Price** (double), **Calories** (uint), and **SpecialInstructions** (List<string>) that can be overridden in any derived classes.  Refactor the **CowpokeChili**, **RustlersRibs**, **PecosPulledPork**, **TrailBurger**, **DakotaDouble**, **TexasTriple**, and **Angry Chicken** to derive from this **Entree** base class.
+Create an abstract base class to represent the entrees.  It should define properties for **Price** (double), **Calories** (uint), and **SpecialInstructions**  (List of strings) that can be overridden in any derived classes.  Refactor the **CowpokeChili**, **RustlersRibs**, **PecosPulledPork**, **TrailBurger**, **DakotaDouble**, **TexasTriple**, and **Angry Chicken** to derive from this **Entree** base class.

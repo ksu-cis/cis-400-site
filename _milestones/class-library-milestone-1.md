@@ -30,7 +30,7 @@ You will need to follow the style laid out in the [C# Coding Conventions](https:
 
 Each entree should be declared in the **CowboyCafe.Data** namespace.
 
-Each entree should implement a property for: Price (a double), Calories (a uint), and SpecialInstructions (a List<string>).  The list of instructions depends on the class, as described under each class heading.
+Each entree should implement a property for: Price (a double), Calories (a uint), and SpecialInstructions (a List of strings).  The list of instructions depends on the class, as described under each class heading.
 
 Your code should pass all the tests  provided in the DataObjectTest project (note, you will need to uncomment the tests as you write the corresponding classes), and be documented using Visual Studio XML (as specified in the style guide).
 
