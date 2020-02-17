@@ -8,7 +8,7 @@ As the semester progresses, I will be releasing updates to the original reposito
 Unlike the _origin_ remote repository, your local repositories won't have a default link to the _upstream_ repository.  We'll have to manually add it (but only once per local repository) with the command:
 
 ```
-$ git remote add upstream https://github.com/ksu-cis/dino-diner.git
+$ git remote add upstream https://github.com/ksu-cis/cowboy-cafe.git
 ```
 
 ## Step 2 - Pull from the Upstream Repository

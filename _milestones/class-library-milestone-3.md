@@ -26,9 +26,10 @@ You will need to follow the style laid out in the [C# Coding Conventions](https:
 
 Each drink should be declared in the **CowboyCafe.Data** namespace.
 
+![Drinks UML](assets/DrinksUML.png)
 
 ### Drink Base Class
-Implement an abstract base class to represent any drink.  It should contain properties for: **Price** (a double), **Calories** (an uint), **Ingredients** (a List&lt;string&gt;), **Size**  (using a Size enum, default small), and **Ice** (bool, default true).
+Implement an abstract base class to represent any drink.  It should contain properties for: **Price** (a double), **Calories** (an uint), **SpecialInstructions** (a List&lt;string&gt;), **Size**  (using a Size enum, default small), and **Ice** (bool, default true).
 
 ### SodaFlavor enum
 Implement an enum of flavors for the soda fountain.  Possible flavors are: Cream Soda, Orange Soda, Sarsaparilla, Birch Beer, and Root Beer.
