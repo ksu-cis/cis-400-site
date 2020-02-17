@@ -22,7 +22,7 @@ In addition, you will need to draw UML class diagrams for all the classes in you
 
 ## General Requirements
 
-You will need to follow the provided style guide.
+You will need to follow the style laid out in the [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions).
 
 Each drink should be declared in the **CowboyCafe.Data** namespace.
 
@@ -37,7 +37,7 @@ Implement an enum of flavors for the soda fountain.  Possible flavors are: Cream
 Implement a class to represent a Jerked Soda that inherits from the Drink class.  It should have an additional property of **Flavor** with type SodaFlavor.  The price of a Jerked Soda is **$1.59** (small), **$2.10** (medium), and **$2.59** (large).  Calories are **110** (small), **146** (medium), and **198** (large). Special instructions should note "Hold Ice" if served without ice.
 
 ### CowboyCoffee Class
-Implement a class to represent a Cowboy Coffee that inherits from the Drink class.  It should have an additional property **RoomForCream** that is false by default, and should have its **Ice** property also false by default.  The price of a CowboyCoffee is **$0.60** (small), **$1.10** (medium), and **$1.60** (large).  Calories are **3** (small), **5** (medium), and **7** (large). Special instructions should note "Add Ice" if served with ice and "Room for Cream" if it should have room for cream.
+Implement a class to represent a Cowboy Coffee that inherits from the Drink class.  It should have an additional properties **RoomForCream** that is false by default, **Decaf** that is false by default, and should have its **Ice** property also false by default.  The price of a CowboyCoffee is **$0.60** (small), **$1.10** (medium), and **$1.60** (large).  Calories are **3** (small), **5** (medium), and **7** (large). Special instructions should note "Add Ice" if served with ice and "Room for Cream" if it should have room for cream.
 
 ### TexasTea Class
 Implement a class to represent a Texas Tea that inherits from the Drink class.  It should have an additional properties **Sweet** that is true by default and **Lemon** that is false by default.  The price of a TexasTea is **$1.00** (small), **$1.50** (medium), and **$2.00** (large).  Calories are **10** (small), **22** (medium), and **36** (large) for sweet tea, and halved for tea without sweetener. Special instructions should note "Hold Ice" if served without ice and "Add Lemon" if it is served with lemon.
