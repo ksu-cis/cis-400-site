@@ -2,7 +2,7 @@
 layout: milestone
 ---
 
-# Point of Sale Milestone 3
+# Point of Sale Milestone 1
 
 ## Add Point of Sale projects
 
@@ -48,4 +48,4 @@ The `CowboyCoffee` class should also indicate when the Coffee is decaffeinated, 
 
 The `JerkedSoda` class should also indicate the flavor, i.e. "Small Cream Soda Jerked Soda".  
 
-If in doubt about the names, look at the MenuNamesTest.cs file in the DataTest project (You will need to pull from upstream to add it to your project).  These should be the names you use.
+If in doubt about the names, look at the ToStringTests.cs file in the DataTest project (You will need to pull from upstream to add it to your project).  These should be the names you use.
