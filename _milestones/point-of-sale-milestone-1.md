@@ -49,3 +49,6 @@ The `CowboyCoffee` class should also indicate when the Coffee is decaffeinated, 
 The `JerkedSoda` class should also indicate the flavor, i.e. "Small Cream Soda Jerked Soda".  
 
 If in doubt about the names, look at the ToStringTests.cs file in the DataTest project (You will need to pull from upstream to add it to your project).  These should be the names you use.
+
+### Part 4: Update UML
+Finally, you should update your UML diagrams to reflect the new classes in the _PointOfSale_ project.
