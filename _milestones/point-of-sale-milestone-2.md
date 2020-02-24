@@ -32,7 +32,7 @@ Note that implementing the `INotifyPropertyChanged` interface carries with it th
 
 In the PointOfSale project, you'll need to create a new control extending `UserControl` named `OrderSummaryControl`.  This control will take the place of the `ListView` currently displayed in your `OrderControl`, and will display the list of items in the order, along with their prices and special instructions.  A mockup of one possible implementation is:
 
-![OrderSummaryControl Mockup](assets/pos-m2-2.2.png)
+![OrderSummaryControl Mockup](assets/pos-ms-2.2.png)
 
 You will want to use a _data binding_ to connect an `Order` instance to your `OrderSummaryControl`, so you can assume this binding as you write the control. Thus, if you want to display the `Subtotal` in a TextBox you can use XAML like:
 
