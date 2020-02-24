@@ -20,7 +20,7 @@ Before we get too deep into creating an order, we need a better way to represent
 
 This suggests we will want to add a new class to represent the data of an order.  This Order class should be defined in the Data project, and will need to collect all the order items into a collection, and provide a total price for the order.  We also want to record a unique order number that should be generated when the order is created (hint, you can keep track of this with a static variable).
 
-![UML for Order Class](assets/pos-ms-1.1.png)
+![UML for Order Class](assets/pos-ms-2.1.png)
 
 As we want our Order class to be able to hold order items, and we want to be able to access properties like the price of these items without needing to explicitly cast, use reflection, or dynamic objects, we need to use some form of polymorphism to be able to treat different order items as the same type.  As we already have common properties across each of our order items (Price, SpecialInstructions) that meet this need, an interface is a good choice.  Name this interface IOrderItem.
 
