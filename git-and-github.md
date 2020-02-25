@@ -21,3 +21,4 @@ We often talk of _workflows_ in how we work, a pattern of steps to accomplish a 
 * [Pulling changes from your origin repository]({{site.baseurl}}{% link _git-workflows/pull-origin.md %}) to a local repository.
 * [Resolving merge conflicts]({{site.baseurl}}{% link _git-workflows/merge-conflicts.md %}) after a merge or pull.
 * [Creating a release]({{site.baseurl}}{% link _git-workflows/create-release.md %}) on your origin repository to turn as your assignment.
+* [Adding documentation files]({{site.baseurl}}{% link _git-workflows/add-documentation-files.md %}) to your repository
