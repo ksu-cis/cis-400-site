@@ -1,9 +1,11 @@
 ---
 layout: milestone
 ---
-## Customizing Orders
+# Point of Sale Milestone 4
 
-For this milestone, you will be expanding the Cowboy Cafe Point of Sale project and the Data Test project.  These expansions will allow a user to further customize an order using the user interface, and will provide tests for the data class `INotifyPropertyChanged` functionality.
+## Further Customizing Orders
+
+For this milestone, you will be expanding the Cowboy Cafe Point of Sale project and the Data Test project.  These expansions will allow a user to further customize an order using the user interface, and will provide tests for the data class `INotifyPropertyChanged` functionality.s
 
 ### General Requirements
 
