@@ -69,7 +69,7 @@ Below each of the menu category headers, list the items in that category.  Each 
 You may use additional HTML elements to organize and present this information, and use CSS to style it as you see fit.
 
 ## Data Project Refactoring
-Add a new static class `Menu` to the Data project.  It should implement five static methods:
+Add a new static class `Menu` to the Data project.  It should implement four static methods:
 
 1. `Entrees()` should return an `IEnumerable<IOrderItem>` containing an single instance (object) of each type of entree served by Cowboy Cafe
 
@@ -77,6 +77,6 @@ Add a new static class `Menu` to the Data project.  It should implement five sta
 
 3. `Drinks()` should return an `IEnumerable<IOrderItem>` containing a single instance (object) of each type of drink served at Cowboy Cafe. These can be the default size.
 
-4. `Combos()` should return an `IEnumerable<IOrderItem>` containing a single instance (object) of each type of combo served at Cowboy Cafe.  These can be the default size and come with the default Side and Drink.
+4. `CompleteMenu()` should return an `IEnumerable<IOrderItem>` containing a single instance (object) of each type of item (all entrees, sides, and drinks) served at Cowboy Cafe.  These can be the default size and come with the default Side and Drink.
 
 **HINT:** This `Menu` class can save you a lot of effort in creating the menu item lists for your website.
