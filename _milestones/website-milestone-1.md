@@ -61,10 +61,10 @@ Under that, add a section greeting the customer with the message:
 _We at Cowboy Cafe are proud to bring you authentic trail meals from the American West.  Shake off the dust on your boots and sake your thirst with one of our old-fashioned hand-jerked sodas.  Dip your Pan de Campo into a bowl of beans.  Or conquer the the mighty Texas Triple Burger!  You've had a hard ride - so take it easy with us._
 
 #### List the Menu Categories
-List the four categories of menu items (Combos, Entrees, Sides, and Drinks) using second-level header tags (`<h2>`).
+List the three categories of menu items (Entrees, Sides, and Drinks) using second-level header tags (`<h2>`).
 
 #### List the Menu Items
-Below each of the menu category headers, list the items in that category.  Each item should be placed in a `<div>` with a class of `menu-item`.  The `<div>` should include, nested in side, the name of the item, its price, and its calories.  If an item comes in multiple sizes, you will need to list the price and calories for each size.
+Below each of the menu category headers, list the items in that category.  Each item should be placed in a `<div>` with a class of `menu-item`.  The `<div>` should include, nested inside, the name of the item, its price, and its calories.  If an item comes in multiple sizes, you will need to list the price and calories for each size.
 
 You may use additional HTML elements to organize and present this information, and use CSS to style it as you see fit.
 
