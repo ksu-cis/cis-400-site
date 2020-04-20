@@ -23,7 +23,7 @@ Modify the Razor page named _Privacy.cshtml_. It should:
 2. Render a `<h1>` tag with the text "Cowboy Cafe Website Privacy Policy"
 3. Render the following privacy policy in a `<p>` tag:
 
-_Dino-Diner respects and values the privacy of its customers, as we hope you respect and value our own. This site does not collect any data on you. This site does not use cookies. This site only displays information about Cowboy Cafe and its delectable food and delightful trail-rider-themed ambiance._
+_Cowboy Cafe respects and values the privacy of its customers, as we hope you respect and value our own. This site does not collect any data on you. This site does not use cookies. This site only displays information about Cowboy Cafe and its delectable food and delightful trail-rider-themed ambiance._
 
 ### About Page
 Create a new Razor page named _About.cshtml_.  It should:
