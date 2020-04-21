@@ -35,7 +35,7 @@ The Searching and Filtering functionality should be implemented in your `Menu` c
 
 The suggested structure for the Menu class is represented in the UML class diagram, below:
 
-![The Menu Class UML]("assets/web-ms-2.1.png")
+![The Menu Class UML](assets/web-ms-2.1.png)
 
 
 ### Testing the Menu Properties
