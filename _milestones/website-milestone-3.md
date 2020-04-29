@@ -3,7 +3,7 @@ layout: milestone
 ---
 # Website Milestone 3
 
-## Searching and Filtering
+## Website Refactoring
 For this milestone you will modifying your filtering approach to use LINQ, and adding some additional features to your website.
 
 Beyond these core requirements, you may add features and elements as you see fit.  Moreover, you are encouraged to style the site using CSS.
