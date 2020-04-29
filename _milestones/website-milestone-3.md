@@ -14,6 +14,8 @@ You will need to follow the style laid out in the [C# Coding Conventions](https:
 
 Each new class should be declared in the **CowboyCafe.Website** or **CowboyCafe.Data** namespace, depending on the project it belongs to.
 
+As always, you should update your UML and in-code documentation to reflect changes.
+
 ### Jerked Soda Flavors
 
 Display a list of all the available jerked soda flavors near the list of drinks.  The exact placement is up to you.
